@@ -1,4 +1,6 @@
 # This file is a template, and might need editing before it works on your project.
+variables:
+  RELEASE: "21-beta-apache"
 docker-build-master:
   # Official docker image :latest tag.
   image: docker:latest
