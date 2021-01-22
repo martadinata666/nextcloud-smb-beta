@@ -15,7 +15,6 @@ docker-build-master:
   only:
     - master
 
-
 docker-build:
   # Official docker image :sha commit tag.
   image: docker:latest
